@@ -30,7 +30,7 @@
 // Styleguide
 @mixin heading-style($size: var(--h1-font-size)) {
   font-family: var(--base-font-family);
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.2;
   font-size: $size;
   margin-bottom: var(--spacing-24);

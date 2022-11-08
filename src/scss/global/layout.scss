@@ -27,7 +27,7 @@ body {
   position: relative;
   width: 100%;
   &--fullscreen {
-    height: calc(100vh - 90.5px);
+    height: 100vh;
     #{$self}__wrapper,
     #{$self}__row {
       height: 100%;
@@ -37,7 +37,7 @@ body {
     width: 100%;
     max-width: var(--site-width-xl);
     margin: auto;
-    padding: 0 32px;
+    padding: 6rem;
   }
   &__row {
     width: 100%;
