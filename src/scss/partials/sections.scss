@@ -1,0 +1,11 @@
+@use '../global/variables.scss' as *;
+@use '../global/mixins.scss' as *;
+
+#section--1 {
+  background-image: url('../../images/terrazzo-background.jpg');
+  h1 {
+    background: var(--off-white);
+    box-shadow: var(--box-shadow);
+    padding: 0 1rem;
+  }
+}

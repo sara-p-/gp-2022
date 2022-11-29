@@ -19,6 +19,14 @@ img {
   }
 }
 
+.background {
+  &--image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 .logo__image {
   max-width: 130px;
   @include tablet-portrait-up {

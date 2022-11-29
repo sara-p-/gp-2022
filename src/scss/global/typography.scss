@@ -11,13 +11,17 @@ html {
     font-size: var(--base-font-size);
   }
 }
+
+body {
+  color: var(--light-black);
+}
 p,
 .p,
 p span {
   font-family: var(--base-font-family);
   font-weight: var(--base-font-weight);
   line-height: var(--base-line-height);
-  color: var(--secondary-color);
+  // color: var(--secondary-color);
   -webkit-font-smoothing: antialiased;
 }
 
