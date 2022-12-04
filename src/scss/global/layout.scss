@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: var(--primary-color);
+  // background-color: var(--primary-color);
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -20,7 +20,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--off-white);
+  background-color: transparent;
 }
 
 .section {
@@ -36,17 +36,17 @@ body {
   }
   &__wrapper {
     width: 100%;
-    max-width: var(--site-width-xl);
+    max-width: var(--site-width-l);
     margin: auto;
-    padding: 6rem;
+    padding: 1rem;
   }
   &__row {
     width: 100%;
     @include flex;
+    gap: var(--spacing-48);
   }
   &__col {
     flex: 1;
-    padding: 0 var(--spacing-24);
     &--flex {
       height: 100%;
       @include flex;

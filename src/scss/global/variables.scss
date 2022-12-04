@@ -1,6 +1,6 @@
 @use 'sass:math';
 @use 'sass:color';
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;300;400;700;900&display=swap');
 
 :root,
 [data-theme='default'] {
@@ -13,9 +13,13 @@
   --orange-red-crayola: hsla(0, 100%, 68%, 1);
   --slate-blue: hsla(240, 50%, 56%, 1);
   --teal: #83c5be;
+  --hot-pink: #ff5ba2;
+  --black-dark: #000000;
+  --azure: #3a86ff;
 
   // Fonts
   --base-font-family: 'Inter', sans-serif;
+  --title-font-family: 'Bebas Neue', sans-serif;
 
   // Font Size
   --base-font-size: 16px;
