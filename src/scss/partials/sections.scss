@@ -4,27 +4,8 @@
 #section--1 {
   .section {
     &__wrapper {
-      width: var(--site-width-s);
+      width: var(--site-width-m);
+      margin-right: 100%;
     }
-  }
-  h1,
-  .h1,
-  h2,
-  .h2,
-  h3,
-  .h3,
-  h4,
-  .h4,
-  h5,
-  .h5,
-  h6,
-  .h6,
-  p {
-    background: var(--off-white);
-    box-shadow: var(--box-shadow);
-    padding: 0 1rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
   }
 }
